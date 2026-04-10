@@ -1,10 +1,29 @@
 # Sales_Performance_Analysis
 This repository contains a comprehensive sales analysis done using SQL
 
-## Tools Used
-- SQL
-- Google Docs
 
 ## Project Overview
 This report analyses the company’s 2019 sales performance to identify key trends, evaluate monthly performance, and assess city-level contributions to revenue. It also investigates the Accountant’s claim regarding mid-year losses and evaluates the Assistant Manager’s recommendations for improving marketing focus. The analysis was conducted using SQL, which was used for data cleaning, transformation and querying of the dataset.
 
+
+## Tools Used
+- SQL
+- Google Docs
+
+## Objectives
+- The objectives of this analysis are to:
+- Analyse monthly sales performance for 2019
+- Verify the claim of revenue decline between April and July
+- Analyse order volume
+- Identify top-performing cities based on revenue
+- Evaluate the effectiveness of the Assistant Manager’s city-focused strategy
+- Provide data-driven recommendations to improve sales performance
+
+## Data cleaning and transformation
+
+1 The original dataset contained a single column (Purchase Address) with combined information.
+To improve usability, this column was split into four separate fields: 
+- Street
+- City 
+- State 
+- Zipcode 
